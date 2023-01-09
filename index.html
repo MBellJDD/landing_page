@@ -43,13 +43,13 @@
         </div>
       </nav>
 
-      <section class="hero__container container">
+      <sectionñ class="hero__container container">
         <h1 class="hero__title">Aprendiendo algo más cada día</h1>
         <p class="hero__paragraph">
           Creación de una landing page con html, css y javascript.
         </p>
         <a href="#" class="cta">Comienza ahora</a>
-      </section>
+      </sectionñ>
     </header>
 
     <main>
@@ -88,47 +88,131 @@
       </section>
 
       <section class="knowledge">
-        <div class="knowledge__container container" >
+        <div class="knowledge__container container">
           <div class="knowledge__texts">
             <h2 class="subtitle">Lorem ipsum dolor sit amet.</h2>
-            <p class="knowledge__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            <a href="#" class="cta" >Entra al curso</a>
+            <p class="knowledge__paragraph">
+              Lorem ipsum, dolor sit amet consectetur adipisicing.
+            </p>
+            <a href="#" class="cta">Entra al curso</a>
           </div>
 
           <figure class="knowledge__picture">
-              <img src="/images/ordenador.jpg" class="knowledge__img" alt="">
+            <img src="/images/ordenador.jpg" class="knowledge__img" alt="" />
           </figure>
         </div>
       </section>
 
       <section class="price container">
         <h2 class="subtitle">Obtenel plan perfecto</h2>
+
         <div class="price__table">
-          <div class="price__element">
-            <p class="plan__name">Flexbox</p>
-            <h3 class="plan__price">Free</h3>
+          <div class="price__element price__element--best">
+            <p class="price__name">Flexbox</p>
+            <h3 class="price__price">Free</h3>
 
-            <div class="plan__items">
-              <p class="plan__features">Flexbox</p>
-              <p class="plan__features">Layouts</p>
-              <p class="plan__features">Responsive</p>
+            <div class="price__items">
+              <p class="price__features">Flexbox</p>
+              <p class="price__features">Layouts</p>
+              <p class="price__features">Responsive</p>
             </div>
+            <a href="#" class="price__cta">Empieza ahora</a>
+          </div>
 
-            <a href="#" class="plan__cta" >Empieza ahora</a>
+          <div class="price__element">
+            <p class="price__name">Grid</p>
+            <h3 class="price__price">30€/mes</h3>
 
+            <div class="price__items">
+              <p class="price__features">Grid</p>
+              <p class="price__features">Implicit Grid</p>
+              <p class="price__features">Responsive</p>
+            </div>
+            <a href="#" class="price__cta">Empieza ahora</a>
+          </div>
+
+          <div class="price__element">
+            <p class="price__name">Animaciones</p>
+            <h3 class="price__price">40€/mes</h3>
+
+            <div class="price__items">
+              <p class="price__features">Animation</p>
+              <p class="price__features">Transition</p>
+              <p class="price__features">Render We</p>
+            </div>
+            <a href="#" class="price__cta">Empieza ahora</a>
           </div>
         </div>
       </section>
 
+      <section class="testimony">
+        <div class="testimony__container container">
+          <img
+            src="/images/leftarrow.svg"
+            class="testimony__arrow"
+            id="before"
+            alt=""
+          />
 
+          <section class="testimony__body testimony__body--show" data-id="1">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombre es Marybell,
+                <span class="testimony__course">estudiante de css</span>
+              </h2>
+              <p class="testimony__review">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio incidunt perspiciatis, aspernatur, fugit quasi rerum
+                alias ipsa hic adipisci delectus inventore aperiam sequi amet
+                excepturi molestias magnam atque nihil eligendi.
+              </p>
+            </div>
+            <figure class="testimony__picture">
+              <img src="/images/face2.jpg" class="testimony__img" alt="">
+            </figure>
+          </section>
 
+          <section class="testimony__body" data-id="2">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombre es Carlos,
+                <span class="testimony__course">estudiante de css</span>
+              </h2>
+              <p class="testimony__review">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio incidunt perspiciatis, aspernatur, fugit quasi rerum
+                alias ipsa hic adipisci delectus.
+              </p>
+            </div>
+            <figure class="testimony__picture">
+              <img src="/images/face.jpg" class="testimony__img" alt="">
+            </figure>
+          </section>
 
+          <section class="testimony__body" data-id="3">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombre es Trotsky,
+                <span class="testimony__course">estudiante de css</span>
+              </h2>
+              <p class="testimony__review">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio incidunt perspiciatis.
+              </p>
+            </div>
+            <figure class="testimony__picture">
+              <img src="/images/face3.jpg" class="testimony__img" alt="">
+            </figure>
+          </section>
 
+          <img
+            src="/images/rightarrow.svg"
+            class="testimony__arrow"
+            id="next"
+            alt=""
+          />
+        </div>
+      </section>
     </main>
-
-
-
-
-
   </body>
 </html>
